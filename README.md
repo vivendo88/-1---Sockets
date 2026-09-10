@@ -121,6 +121,17 @@ No log do servidor, a tentativa de conexão vinda da porta  51800 registra a seg
 
 
 
+Extensão do Sistema
+Adicionado  arquivo "Cliente_Arcondicionado.py"
+
+
+
+
+
+
+
+
+
 
 
 
