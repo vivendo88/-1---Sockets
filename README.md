@@ -59,5 +59,84 @@ Mensagem de resposta enviada pelo Servidor ao Cliente:
 
 <img width="1718" height="496" alt="6 1 Mensagens enviadas pelos sensor " src="https://github.com/user-attachments/assets/de616755-4e29-4589-9529-3c9bd9ebc81b" />
 
+
+
+ O ROTEIRO DE TESTE
+
+
+    Abra o local do arquivo 
+    cd Downloads/src
+
+<img width="615" height="116" alt="1 local dos arquivos" src="https://github.com/user-attachments/assets/a966fa1b-5875-4d7d-9869-8dce8b6b7a51" />
+
+     Inicie o Servidor 
+       python3 Sever.py
+       
+  <img width="574" height="623" alt="2 Iniciando servidor" src="https://github.com/user-attachments/assets/8c0feb7d-02a7-430a-8616-fa416ac17b7a" />
+
+          • Inicie o dispositivo lâmpada
+            python3 Cliente_Lampada.py 
+           #Repare que o servidor já atribui uma porta de comunicação pra ele
+
+<img width="1595" height="903" alt="3 Iniciando Cliente_lampada" src="https://github.com/user-attachments/assets/00f6de61-595e-4f27-9e7b-b05df00e60aa" />
+
+        • Selecione o ambiente do dispositivo
+       #Repare que o servido já registra o dispositivo e ambiente que ele esta
+
+<img width="1052" height="388" alt="4 Selecionando_ambiente" src="https://github.com/user-attachments/assets/79c4b3ea-f954-451f-8880-ad1ffc212f68" />
+
+
+Inicie o sensor de presença 
+    	python3 Cliente_Presenca.py 
+        #Lembre de após iniciar sensor de presença selecionar o mesmo local selecionado na lâmpada
+        
+<img width="1236" height="800" alt="5 Iniciado sensor_presença" src="https://github.com/user-attachments/assets/0b8d4be4-d796-4279-9dcc-26486bca1337" />
+
+ • Executando sensor de Presença 
+#Após selecionar opção 1 repare que o servido envia uma mensagem pra lampada acionando a mesma 
+<img width="1416" height="624" alt="6 executando comando sensor de presença" src="https://github.com/user-attachments/assets/29a4ae6c-5711-447e-99a2-09aa096c4249" />
+
+• Mensagens trocadas entre o Cliente_Presença e Servidor 
+      
+Cliente → Servidor de código 5: Ao selecionar a opção 1 (presença detectada), o sensor envia a mensagem 5: Leitura, Dispositivo: 1, Valor do sensor: 1 (1.0). O servidor encaminha o comando recebido para a fila de controle do ambiente (Comando chegando na fila do controle do ambiente 1.
+ Servidor →  Cliente código 1: O servidor retorna uma mensagem de confirmação com status LEITURA_RECEBIDA (Leitura recebida pelo servidor!!!), concluindo o ciclo de leitura.
+ <img width="1718" height="496" alt="6 1 Mensagens enviadas pelos sensor " src="https://github.com/user-attachments/assets/49728000-0926-451f-a203-352e3e57229e" />
+
+• Simulando um dispositivo com falha
+Realizado alteração na linha “device = Device(connection, NUM_SENSOR_PRESENCA) “
+para “device = Device(connection, 45)”  para forçar falha de registro.
+
+<img width="938" height="976" alt="8 Simulando falha dispositvo não cadastrado" src="https://github.com/user-attachments/assets/d4635747-942b-44fc-befd-b4f40925d2f4" />
+<img width="936" height="1004" alt="8 1 Simulando falha dispositvo não cadastrado" src="https://github.com/user-attachments/assets/e86e3870-b5a4-4f7e-b0aa-26e0dd9f651e" />
+
+
+
+No log do servidor, a tentativa de conexão vinda da porta  51800 registra a seguinte sequência:
+
+
+
+<img width="1869" height="997" alt="8 2 Simulando falha dispositvo não cadastrado" src="https://github.com/user-attachments/assets/3557265c-5c3b-4c36-a42c-0b8ec7dcae62" />
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+       
+
+    
+
+    
+
+
+
         
           
