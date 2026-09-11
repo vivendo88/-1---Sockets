@@ -152,6 +152,22 @@ No log do servidor, a tentativa de conexão vinda da porta  51800 registra a seg
 
 
 
+
+Testando o o Arcondicionado 
+
+Após iniciar o aqruivo server.py o proximo passo é iniciar  o arquivo Cliente_Arcondicionado.py e Cliente_Temperatura e ao setar valore na temperatura acima de 22 o ar-condicionado será ligado
+
+<img width="1823" height="1011" alt="10 3 - rodando código ar_conficionado no arquivo disposivo" src="https://github.com/user-attachments/assets/dbc21521-d27e-48bd-9f99-3814fe98ac86" />
+
+
+
+
+
+
+
+
+
+
    
 
 
