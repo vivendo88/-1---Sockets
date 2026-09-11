@@ -116,7 +116,7 @@ No log do servidor, a tentativa de conexão vinda da porta  51800 registra a seg
 
 
 <img width="1869" height="997" alt="8 2 Simulando falha dispositvo não cadastrado" src="https://github.com/user-attachments/assets/3557265c-5c3b-4c36-a42c-0b8ec7dcae62" />
-
+<n>
 
 
 
