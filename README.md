@@ -159,6 +159,14 @@ Após iniciar o aqruivo server.py o proximo passo é iniciar  o arquivo Cliente_
 
 <img width="1823" height="1011" alt="10 3 - rodando código ar_conficionado no arquivo disposivo" src="https://github.com/user-attachments/assets/dbc21521-d27e-48bd-9f99-3814fe98ac86" />
 
+<img width="1860" height="992" alt="10 4 - rodando execunto arcondionado e sensor de temperatura" src="https://github.com/user-attachments/assets/9c8c8e42-52fa-463d-8521-36b5666acd25" />
+
+
+
+
+
+
+
 
 
 
