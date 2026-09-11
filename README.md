@@ -137,6 +137,18 @@ No log do servidor, a tentativa de conexão vinda da porta  51800 registra a seg
 
    <img width="675" height="976" alt="10 1 - adicionando codigos ar_conficionado no arquivo config" src="https://github.com/user-attachments/assets/a736c1e6-09c7-4142-8e33-e6a3fefa0a8f" />
 
+   
+   
+   Editado o arquivo Server.py
+
+   <img width="1454" height="700" alt="10 3 2- Editado arquivo Sever py" src="https://github.com/user-attachments/assets/d9c7342b-5bcb-470d-ba96-a9afe138c745" />
+
+
+   
+
+
+   
+
 
   
 
