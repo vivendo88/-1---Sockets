@@ -26,7 +26,7 @@ if __name__ == '__main__':
 		exit()
 
 	# Registra no servidor como atuador suportado
-	device = Device(connection, NUM_LAMPADA)
+	device = Device(connection, NUM_AR_CONDICIONADO)
 	roomDict = ClientRegister(device)
 	if roomDict != None:
 		deviceID, roomID, roomName = SelectRoom(device, roomDict)
