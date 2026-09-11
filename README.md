@@ -121,8 +121,29 @@ No log do servidor, a tentativa de conexão vinda da porta  51800 registra a seg
 
 
 
-Extensão do Sistema
-Adicionado  arquivo "Cliente_Arcondicionado.py"
+**Extensão do Sistema**
+
+  Criado o arquivo "Cliente_Arcondicionado.py"
+  <img width="913" height="926" alt="10 2 - criado o arquivo que executa o disposivo arcondicionado" src="https://github.com/user-attachments/assets/6d36dc41-7900-4295-9da5-f0d9889d61aa" /> 
+
+
+  Adicionado no arquivo dispostivo.txt o novo dispositivo "ar-condicionado"
+
+  <img width="545" height="150" alt="10 - adicionando ar_conficionado no arquivo disposivo" src="https://github.com/user-attachments/assets/b57343e0-619c-47c4-9d1d-2331761f57aa" />
+
+
+   
+   Editado o arquivo de Config.py
+
+   <img width="675" height="976" alt="10 1 - adicionando codigos ar_conficionado no arquivo config" src="https://github.com/user-attachments/assets/a736c1e6-09c7-4142-8e33-e6a3fefa0a8f" />
+
+
+  
+
+  
+
+
+
 
 
 
